@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">ErrorValidationTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">44,974</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">EndToEndTest</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">58,397</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">2</th><th class="num">103,371</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ErrorValidationTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Wipro.Tests.ErrorValidation</td><td><a href="#m0">OrderValidation</a></td><td rowspan="1">1721925452865</td><td rowspan="1">18505</td></tr><tr><th colspan="4">ErrorValidationTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Wipro.Tests.ErrorValidation</td><td><a href="#m1">LoginValidation</a></td><td rowspan="1">1721925440593</td><td rowspan="1">2880</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">EndToEndTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Wipro.Tests.EndToEndTest</td><td><a href="#m2">OrderProduct</a></td><td rowspan="1">1721925523963</td><td rowspan="1">9271</td></tr><tr><th colspan="4">EndToEndTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Wipro.Tests.EndToEndTest</td><td><a href="#m3">orderHistory</a></td><td rowspan="1">1721925534800</td><td rowspan="1">0</td></tr><tr><th colspan="4">EndToEndTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Wipro.Tests.EndToEndTest</td><td><a href="#m4">OrderProduct</a></td><td rowspan="1">1721925486115</td><td rowspan="1">25345</td></tr></tbody>
+</table>
+<h2>ErrorValidationTest</h2><h3 id="m0">Wipro.Tests.ErrorValidation#OrderValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-sem-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1199, 26). Other element would receive the click: &lt;div _ngcontent-sem-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=127.0.6533.73)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2bdc4e6d7278348caf1d15104719e24, clickElement {id=f.53FD4E073ECEDC4F2397C94FAB4D876A.d.D295A585D02D785B4A33126A9D9ED28C.e.87}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: /var/folders/40/hjmnz6dd3vs...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61743}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61743/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (c2bdc4e6d7278348caf1d15104719e24)] -&gt; css selector: [routerlink*=&apos;cart&apos;]]
+Session ID: c2bdc4e6d7278348caf1d15104719e24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at Wipro.utilities.ExplicitWait.cartClick(ExplicitWait.java:40)
+	at Wipro.Tests.ErrorValidation.OrderValidation(ErrorValidation.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Wipro.Tests.ErrorValidation#LoginValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EndToEndTest</h2><h3 id="m2">Wipro.Tests.EndToEndTest#OrderProduct</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr><tr class="param stripe"><td>VenkatAngara0809@gmail.com</td><td>Angara@123</td><td>Angara</td><td>Venkat</td><td>Student</td><td>Angara@123</td><td>ADIDAS ORIGINAL</td><td>9542322769</td><td>First100</td><td>India</td><td>322</td></tr><tr><th colspan="11">Exception</th></tr><tr><td colspan="11"><div class="stacktrace">java.lang.AssertionError: expected [Product Added To Cart] but found [Login Successfully]
+	at Wipro.Tests.EndToEndTest.OrderProduct(EndToEndTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Wipro.Tests.EndToEndTest#orderHistory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Wipro.Tests.EndToEndTest.orderHistory() on instance Wipro.Tests.EndToEndTest@268f106e depends on not successfully finished methods 
+[Wipro.Tests.EndToEndTest.OrderProduct() on instance Wipro.Tests.EndToEndTest@268f106e]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Wipro.Tests.EndToEndTest#OrderProduct</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr><tr class="param stripe"><td>VenkatAngara0809@gmail.com</td><td>Angara@123</td><td>Angara</td><td>Venky</td><td>Engineer</td><td>Angara@123</td><td>IPHONE 13 PRO</td><td>9542322769</td><td>First50</td><td>India</td><td>769</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
